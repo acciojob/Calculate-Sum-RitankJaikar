@@ -3,7 +3,7 @@
 const n1Input = document.getElementById('n1');
 const n2Input = document.getElementById('n2');
 const sumButton = document.getElementById('sum_btn');
-const sumDisplay = document.getElementById('sum');
+const sumDisplay = document.getElementById('Sum');
 
 // Event listener for the button
 sumButton.addEventListener('click', () => {
@@ -13,7 +13,7 @@ sumButton.addEventListener('click', () => {
   // Validate inputs
   if (!isNaN(num1) && !isNaN(num2)) {
     const sum = num1 + num2;
-    sumDisplay.textContent = `${sum}`;
+    sumDisplay.textContent = sum;
   } else {
     sumDisplay.textContent = '';
   }
