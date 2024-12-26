@@ -13,7 +13,7 @@ sumButton.addEventListener('click', () => {
   // Validate inputs
   if (!isNaN(num1) && !isNaN(num2)) {
     const sum = num1 + num2;
-    sumDisplay.textContent = `Sum: ${sum}`;
+    sumDisplay.textContent = `${sum}`;
   } else {
     sumDisplay.textContent = '';
   }
